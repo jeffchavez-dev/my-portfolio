@@ -462,8 +462,8 @@ background-color: var(--second-color);
   padding: 2rem 0;
 }
 .footer__title{
-  font-size: 2rem;
-  margin-bottom: var(--mb-4);
+  font-size: 1.5rem;
+  margin-bottom: var(--mb-3);
 }
 .footer__social{
   margin-bottom: var(--mb-4);
@@ -472,6 +472,9 @@ background-color: var(--second-color);
   font-size: 1.5rem;
   color: #fff;
   margin: 0 var(--mb-2)
+}
+.footer p {
+  margin: 1em 0;;
 }
 
 .footer__icon:hover{

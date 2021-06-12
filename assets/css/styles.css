@@ -59,7 +59,7 @@ body{
   font-family: var(--body-font);
   font-size: var(--normal-font-size);
   color: var(--third-color);
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 h1,h2,p{
   margin: 0;

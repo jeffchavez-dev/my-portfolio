@@ -33,6 +33,13 @@ const sr = ScrollReveal({
     reset: true
 });
 
+/*SCROLL HOME*/
+sr.reveal('.home__title',{}); 
+sr.reveal('.button',{delay: 200}); 
+sr.reveal('.home__img',{delay: 400}); 
+sr.reveal('.home__social-icon',{ interval: 200}); 
+
+
 const sl = ScrollReveal({
     origin: 'right',
     distance: '80px',
@@ -40,11 +47,6 @@ const sl = ScrollReveal({
     reset: true
 });
 
-/*SCROLL HOME*/
-sr.reveal('.home__title',{}); 
-sr.reveal('.button',{delay: 200}); 
-sr.reveal('.home__img',{delay: 400}); 
-sr.reveal('.home__social-icon',{ interval: 200}); 
 
 
 /*SCROLL SKILLS*/
@@ -54,7 +56,7 @@ sr.reveal('.skills__data',{interval: 200});
 // sr.reveal('.skills__img',{delay: 600});
 
 /*SCROLL WORK*/
-sr.reveal('.work__img',{interval: 200}); 
+sl.reveal('.work__img',{interval: 200}); 
 
 
 var testimonials = document.getElementById('testimonials');

@@ -309,7 +309,6 @@ img{
 
 .work__img img{
   transition: 1s;
-  cursor: pointer;
   grid-column: 1 / -1;
   grid-row: 1 / -1;
 }
@@ -343,7 +342,11 @@ img{
   border-radius: 5px;
 }
 .work__img:hover .overlay {
-  transform: translateY(75%);
+  transform: translateY(50%);
+}
+
+.work__tech {
+  padding: .5em;
 }
 .work a:hover {
   background-color: var(--first-color);

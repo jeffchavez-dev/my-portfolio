@@ -208,7 +208,7 @@ img{
   text-transform: uppercase;
 }
 .home__name {
-  padding: 2em;
+  padding: 1.5em;
 }
 .home__data{
   align-items: flex-start;
@@ -216,6 +216,7 @@ img{
 .home__title{
   font-size: var(--big-font-size);
   text-transform: uppercase;
+  font-weight: bolder;
 }
 .home__title-color{
   color: var(--first-color);
@@ -264,6 +265,7 @@ img{
 .about {
   background-color: var(--second-color);
   color: white;
+  height: calc(90vh - 3em);
 }
 .about section {
   background-color: var(--second-color);
@@ -277,12 +279,16 @@ img{
 }
 .about__img{
   justify-self: center;
-  opacity: .7;
 }
 
-.about__img:hover {
+.about__img img {
+  width: 50%;
+  margin: auto;
+  opacity: .5;
+}
+
+.about__img img:hover {
   transform: translate3d(0, -5px, 0);
-  box-shadow: var(--third-color) 0 5px 10px 0 ;
   transition: all .5s ease-in-out;
   opacity: 1;
 }

@@ -7,8 +7,8 @@
 
 /*===== Color Palette from https://www.color-hex.com/color-palette/14256=====*/
 :root{
-  --first-color: #25c5df;
-  --second-color: #478559; 
+  --first-color: red;
+  --second-color: blue; 
   --third-color: #8b888e;
   --fourth-color: #4f9bd9;
 
@@ -126,8 +126,8 @@ img{
   top: 0;
   left: 0;
   z-index: var(--z-fixed);
-  background-color: #fff;
-  box-shadow: 0 1px 4px rgba(146,161,176,.15);
+  background-color: #000;
+  /* box-shadow: 0 1px 4px rgba(146,161,176,.15); */
 }
 
 /*===== NAV =====*/
@@ -173,7 +173,7 @@ img{
 }
 .nav__logo img{
   color: var(--second-color);
-  width: 50px;
+  width: auto;
   height: 50px;
 }
 .nav__toggle{
@@ -214,12 +214,17 @@ img{
   align-items: flex-start;
 }
 .home__title{
-  font-size: var(--big-font-size);
-  text-transform: uppercase;
-  font-weight: bolder;
+
 }
 .home__title-color{
   color: var(--first-color);
+  font-family: 'Titan One', cursive;
+  font-size: var(--big-font-size);
+  text-transform: uppercase;
+  background-image: linear-gradient(90deg, red, blue);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
 }
 .home__social{
   display: flex;
@@ -263,7 +268,7 @@ img{
 
 /* ===== ABOUT =====*/
 .about {
-  background-color: var(--second-color);
+  background-color: #000;
   color: white;
   height: calc(90vh - 3em);
 }
@@ -419,14 +424,14 @@ img{
   outline: none;
   margin-bottom: var(--mb-4);
 }
-.contact__button{
+/* .contact__button{
   display: block;
   border: none;
   outline: none;
   font-size: var(--normal-font-size);
   cursor: pointer;
   margin-left: auto;
-}
+} */
 
 /* ===== FOOTER =====*/
 .footer{

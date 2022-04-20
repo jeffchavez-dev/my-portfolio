@@ -67,6 +67,7 @@ body{
 .container {
   max-width: 900px;
   width: 90%;
+  margin: auto;
 }
 h1,h2,p{
   margin: 0;
@@ -109,6 +110,7 @@ img{
 .section{
   padding-top: 3rem;
   padding-bottom: 5rem;
+  margin: 3rem auto;
 }
 
 /*===== LAYOUT =====*/
@@ -312,7 +314,7 @@ img{
 /* ===== WORK =====*/
 
 .work__container{
-  row-gap: 2rem;
+  /* row-gap: 2rem; */
 }
 .work__img{
   box-shadow: 0 4px 25px rgba(14,36,49,.15);
@@ -322,6 +324,14 @@ img{
   
 }
 
+.vertical__line {
+  position: absolute;
+  height: 100vh;
+  background-color: red;
+  width: 5px;
+  left: 50%;
+  margin: 0 auto;
+}
 .work__img img{
   transition: 1s;
   grid-column: 1 / -1;
@@ -413,6 +423,28 @@ img{
 }
 
 
+/* ===== SKILLS =====*/
+
+.skills__list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.skills__item {
+  border: 1px rgb(218, 45, 45) solid;
+  padding: .5em;
+  width: 30%;
+  margin: 10px;
+}
+/* .skills__item + .skills__item {
+  margin-left: .5em;
+} */
+.skills__item:hover {
+  background-color: rgba(255, 0, 0, 0.507);
+  color: white;
+}
 /* ===== CONTACT =====*/
 .contact__input{
   width: 100%;
@@ -471,6 +503,7 @@ img{
   .section{
     padding-top: 4rem;
     padding-bottom: 4rem;
+    margin: 5rem auto;
   }
   .section-title{
     margin-bottom: var(--mb-6);

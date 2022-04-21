@@ -324,14 +324,14 @@ img{
   
 }
 
-.vertical__line {
+/* .vertical__line {
   position: absolute;
   height: 100vh;
   background-color: red;
   width: 5px;
   left: 50%;
   margin: 0 auto;
-}
+} */
 .work__img img{
   transition: 1s;
   grid-column: 1 / -1;

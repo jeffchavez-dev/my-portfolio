@@ -182,6 +182,12 @@ img{
   cursor: pointer;
   color: white;
   background-color: black;
+  padding: 0 1em;
+  font-size: 1.2rem;
+  opacity: .7;
+}
+.change-bg-btn:hover {
+  opacity: 1;
 }
 .dark {
   background-color: #000;

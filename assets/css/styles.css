@@ -62,6 +62,7 @@ body{
   /* overflow: hidden; */
   text-align: center;
   /* background-color: black; */
+  transition: ease-in-out .8s;
 }
 
 .container {
@@ -189,6 +190,7 @@ img{
 .change-bg-btn:hover {
   opacity: 1;
 }
+
 .dark {
   background-color: #000;
 }

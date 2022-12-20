@@ -177,6 +177,11 @@ img{
   width: auto;
   height: 50px;
 }
+
+.change-bg-btn {
+  color: white;
+  background-color: black;
+}
 .nav__toggle{
   color: var(--second-color);
   font-size: 1.5rem;

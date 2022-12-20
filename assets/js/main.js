@@ -70,8 +70,7 @@ var control3 = document.getElementById('control3');
 
 const changeBgBtn = document.querySelector('.change-bg-btn')
 changeBgBtn.addEventListener('click', () =>{
-    document.body.style.backgrounColor = 'white';
-    alert('color changed')
+    document.body.classList.toggle('dark')
 })
 
 

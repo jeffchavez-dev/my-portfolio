@@ -61,7 +61,7 @@ body{
   color: var(--third-color);
   /* overflow: hidden; */
   text-align: center;
-  background-color: black;
+  /* background-color: black; */
 }
 
 .container {
@@ -179,8 +179,12 @@ img{
 }
 
 .change-bg-btn {
+  cursor: pointer;
   color: white;
   background-color: black;
+}
+.dark {
+  background-color: #000;
 }
 .nav__toggle{
   color: var(--second-color);

@@ -69,7 +69,7 @@ var control3 = document.getElementById('control3');
 
 
 const changeBgBtn = document.querySelector('.change-bg-btn')
-const changeFontColor = document.querySelector('.user p')
+const changeFontColor = document.querySelector('.user_text')
 changeBgBtn.addEventListener('click', () =>{
     document.body.classList.toggle('dark')
     changeFontColor.classList.toggle('white')

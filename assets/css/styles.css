@@ -422,7 +422,7 @@ img{
   transition: all .5s ease-in-out;
   color: white;
 }
-.user p {
+.uset_text {
   font-size: 1.5em;
   color: #000;
 }
